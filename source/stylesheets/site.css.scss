@@ -1,5 +1,5 @@
 body {
-  background-color: #f2ffcc;
+  background-color: #F8F8F8;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
@@ -7,6 +7,73 @@ body {
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   /*padding: 18vh 1rem;*/
   /*text-align: center;*/
+}
+
+body .section h3{
+    font-family: Impact, "Arial Black", sans-serif;
+}
+
+body .section h3#home {
+    font-family: Arial, sans-serif;
+}
+
+body .section h3#home .book_name{
+    color:burlywood;
+}
+
+body .section h3#home a{
+    color:blue;
+}
+
+body .section h5{
+    font-family: "Arial Black", sans-serif;
+}
+
+body .section .subsection{
+    background-color:floralwhite;
+}
+
+body .section .subsection1{
+    background-color:#E8E8E8;
+}
+body .section ul ol,body .section ul ul{
+    font-family: "Lucida Sans", "Lucide Console", sans-serif;
+    font-size: 80%;
+    color: darkcyan;
+    background-color: #f5f5f5;
+}
+
+.header_info {
+    background-color: yellow;
+
+}
+
+.first {
+    width: 1000px;
+    float: left;
+    height: 220px;
+}
+.second {
+    width: 200px;
+    float: left;
+    height: 220px;
+}
+
+.clear {
+    clear: both;
+}
+
+body .section .subsection1 a{
+    color: blue;
+    font-style:oblique;
+}
+.header_info{
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 3px;
+    border-color:black;
+    border-style:double;
+    background-color:coral;
 }
 a {
   color: rgba(#000, 0.7);
@@ -16,20 +83,23 @@ a {
     color: rgba(#000, 0.6);
   }
 }
-.headerfont{
-    font_family: fantasy, Helvetica, sans-serif;
-    color: red;
+
+
+.main-navigation{
+    padding: 30px 5px 0px;/*TRBL*/
+    background-color:azure;
+    //font_family: Impact, Charcoal, sans-serif;
+    font-size: 200%;
 }
 
-
-nav{
-    background-color:azure;
-    font_family: Impact, Charcoal, sans-serif;
-    
+.main-navigation a{
+    font-family: georgia, 'times new roman', serif;
+    color: darkgoldenrod;
 }
 
 #footer{
-    background-color: aliceblue
+    padding: 5px 10px 10px 10px;
+    background-color: darkgray;
 }
 
 #footer a[href]{
@@ -37,6 +107,6 @@ nav{
     font-style:oblique;
 }
 
-.header_info{
-    background-color:bisque;
+.section{
+    margin: 3px 3px 3px 3px;
 }
